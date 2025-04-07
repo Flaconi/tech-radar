@@ -5,8 +5,9 @@ dist/
 
 # yarn
 yarn-error.log
-.yarn/
-!.yarn/releases
+.yarn/*
+!.yarn/releases/
+!.yarn/releases/*.cjs
 .yarnrc.yml
 .pnp.*
 
